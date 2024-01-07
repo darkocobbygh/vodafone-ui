@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+  background-color: #FFFFFF;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.mobile-menu {
+  transition: transform 0.5s ease-in-out;
+  transform-origin: top;
+  transform: translateY(-100%);
+}
